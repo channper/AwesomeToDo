@@ -27,7 +27,7 @@ jobs:
 - type: import
   parameters:
     type: har
-    fileName: /tmp/localhost_Archive [25-10-17 11-52-09].har
+    fileName: /zap/wrk/tmp/AwesomeToDo.har
 - type: passiveScan-wait
   parameters: {}
 - type: activeScan
@@ -41,7 +41,7 @@ jobs:
   parameters:
     template: modern
     theme: corporate
-    reportDir: /root
+    reportDir: /zap/wrk/
     reportFile: zap_report.html
     reportTitle: ZAP Scanning Report
   risks:
